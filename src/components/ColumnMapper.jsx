@@ -5,7 +5,7 @@ import {
 import "@xyflow/react/dist/style.css";
 import { useCallback, useMemo, useState, useEffect } from "react";
 
-/* ── layout ─────────────────────────────────────────── */
+
 const NODE_W  = 160;
 const NODE_H  = 42;
 const GAP_Y   = 10;
@@ -16,7 +16,7 @@ const DB_ICONS = { fullName:"👤", email:"✉️", phone:"📞", city:"🏙️"
 const DB_TYPES = { fullName:"STRING", email:"STRING · UNIQUE", phone:"STRING", city:"STRING" };
 const MONO = "'JetBrains Mono','Fira Mono',monospace";
 
-/* ── injected CSS ───────────────────────────────────── */
+
 const CSS = `
 @keyframes slideDown { from{opacity:0;transform:translateY(-6px)} to{opacity:1;transform:none} }
 .fm-panel { animation: slideDown .2s ease; }
